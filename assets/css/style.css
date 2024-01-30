@@ -1,0 +1,68 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+/* font-family add */
+@font-face {
+  font-family: myFont;
+  src: url(PatuaOne-Regular.ttf);
+}
+
+.main {
+  margin-bottom: 100px;
+}
+
+.but {
+  font-size: 20px;
+  color: red;
+}
+#min,
+#sec,
+#hour {
+  font-family: "myFont";
+}
+
+@media screen and (min-width: 600px) {
+  span {
+    font-size: 100px;
+  }
+  button {
+    font-size: 60px;
+    padding: 10px;
+    font-family: joy;
+  }
+  #hour,
+  #min,
+  #sec {
+    width: 90px;
+    letter-spacing: 6px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  span {
+    font-size: 30px;
+  }
+  button {
+    font-size: 35px;
+    padding: 10px;
+    font-family: joy;
+  }
+  #hour,
+  #min,
+  #sec {
+    width: 70px;
+    letter-spacing: 6px;
+    text-align: center;
+  }
+}
+
+#pam {
+  font-family: "myFont";
+  transform: scale(0.5);
+}
