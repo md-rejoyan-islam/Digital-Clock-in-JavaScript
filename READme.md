@@ -23,9 +23,9 @@ The clock automatically displays the current time. You can switch between 12-hou
 ## Clone the repository:
 
 ```javascript
-git clone https://github.com/YOUR_USERNAME/simple-digital-clock.git
+git clone https://github.com/md-rejoyan-islam/Digital-Clock-in-JavaScript
 ```
 
 ## Live Demo:
 
-[Click]()
+[Click](https://md-rejoyan-islam.github.io/Digital-Clock-in-JavaScript/)
